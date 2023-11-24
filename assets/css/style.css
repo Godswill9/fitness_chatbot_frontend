@@ -1668,7 +1668,7 @@ body.loaded { overflow: overlay; }
 
 
 .chatBot{
-  border: 3px solid rgba(255, 255, 255, 0.292);
+  border: 3px solid white;;
   width: fit-content;
   border-radius: 50%;
   position: fixed;
@@ -1772,8 +1772,8 @@ body.loaded { overflow: overlay; }
 /* 413 */
 
 .chatBot img{
- width: 3em;
- height: 3em;
+ width: 3.7em;
+ height: 3.7em;
  background-color: black;
  border-radius: 50%;
 }
