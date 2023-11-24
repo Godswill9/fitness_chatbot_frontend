@@ -1664,3 +1664,116 @@ body.loaded { overflow: overlay; }
   .footer-top .container { grid-template-columns: 1fr 0.6fr 0.9fr 1fr; }
 
 }
+
+
+
+.chatBot{
+  border: 3px solid rgba(255, 255, 255, 0.292);
+  width: fit-content;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .5em;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.chatMain{
+  transition: .1s ease-in-out;
+  position: fixed;
+  bottom: 0.7%;
+  right: 0.7%;
+  cursor: pointer;
+  /* height: 31em; */
+  border: 1px solid rgba(0, 0, 0, 0.157);
+        border-radius: 24px;
+        margin: 4em;
+        margin-left: 2em;
+        z-index:4;
+        scroll-snap-type: inline mandatory;
+        /* width: 20em; */
+
+        width: 30%;
+        height: 80%;
+}
+@media (max-width:1250px) {
+  .chatMain{
+      width: 37%;
+      height: 80%;
+  }
+}
+@media (max-width:973px) {
+  .chatMain{
+      width: 45%;
+      height: 80%;
+  }
+}
+@media (max-width:753px) {
+  .chatMain{
+      width: 56%;
+      height: 70%;
+  }
+  /* .chatBot{
+      bottom:-6%;
+  } */
+}
+@media (max-width:576px) {
+  .chatMain{
+      width: 66%;
+      height: 70%;
+  }
+}
+@media (max-width:413px) {
+  .chatMain{
+      width: 77%;
+      height: 70%;
+      bottom: 0%;
+      right: -10%;
+  }
+}
+@media (max-width:483px) {
+  .chatMain{
+      width: 86%;
+      height: 79%;
+      bottom: -5%;
+      right: -12%;
+  }
+}
+@media (max-width:290px) {
+  .chatMain{
+      width: 86%;
+      height: 79%;
+      bottom: -5%;
+      right: -20%;
+  }
+}
+
+@media (min-height:780px) {
+  .chatMain{
+      height:70%
+  }
+}
+@media (min-height:984px) {
+  .chatMain{
+      height:60%
+  }
+}
+@media (min-height:1000px) {
+  .chatMain{
+      height:50%
+  }
+}
+
+/* 349 */
+/* 413 */
+
+.chatBot img{
+ width: 3em;
+ height: 3em;
+ background-color: black;
+ border-radius: 50%;
+}
