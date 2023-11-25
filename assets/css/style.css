@@ -1772,8 +1772,8 @@ body.loaded { overflow: overlay; }
 /* 413 */
 
 .chatBot img{
- width: 3.7em;
- height: 3.7em;
+ width: 3em;
+ height: 3em;
  background-color: black;
  border-radius: 50%;
 }
